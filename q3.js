@@ -21,7 +21,7 @@ for(let i=1;i<=num;i++){
     let star= '';
     for(j=1;j<=i;j++){
     
-    star =star +  ` ${count}`;
+    star +=` ${count}`;
     count += 1;
 }
 console.log(star);
