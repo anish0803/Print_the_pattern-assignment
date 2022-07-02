@@ -14,21 +14,3 @@
 //     2   3   2
 //         1
 
-for(let i=3;i>=1;i--){
-    let star= '';
-    for(j=1;j<=3;j++){
-
-    
-    star =star + '';
-  
-}
-let k=i;
-for(m=1;m<=i;m++){
-    star= star+k++;
-}
-k=k-2;
-for(let m=1;m<=i;m++){
-    star= star+k--;
-}
-console.log(star);
-}
